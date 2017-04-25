@@ -1,6 +1,6 @@
 # npmdoc-excel-as-json
 
-#### api documentation for  [excel-as-json (v2.0.0)](https://github.com/stevetarver/excel-as-json)  [![npm package](https://img.shields.io/npm/v/npmdoc-excel-as-json.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-excel-as-json) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-excel-as-json.svg)](https://travis-ci.org/npmdoc/node-npmdoc-excel-as-json)
+#### basic api documentation for  [excel-as-json (v2.0.0)](https://github.com/stevetarver/excel-as-json)  [![npm package](https://img.shields.io/npm/v/npmdoc-excel-as-json.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-excel-as-json) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-excel-as-json.svg)](https://travis-ci.org/npmdoc/node-npmdoc-excel-as-json)
 
 #### Convert Excel data to JSON
 
@@ -21,37 +21,16 @@
 ```json
 
 {
-    "name": "excel-as-json",
-    "version": "2.0.0",
-    "description": "Convert Excel data to JSON",
-    "author": "Steve Tarver <steve.tarver@gmail.com>",
-    "license": "MIT",
-    "main": "lib/excel-as-json.js",
-    "scripts": {
-        "clean": "tools/clean.sh",
-        "build": "tools/build.sh",
-        "test": "tools/test.sh",
-        "dist": "tools/dist.sh",
-        "codecov": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov",
-        "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-        "prepublish": "tools/dist.sh"
+    "author": {
+        "name": "Steve Tarver"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/stevetarver/excel-as-json.git"
-    },
-    "keywords": [
-        "Excel",
-        "JSON",
-        "convert"
-    ],
     "bugs": {
         "url": "https://github.com/stevetarver/excel-as-json/issues"
     },
-    "homepage": "https://github.com/stevetarver/excel-as-json",
     "dependencies": {
         "excel": "0.1.7"
     },
+    "description": "Convert Excel data to JSON",
     "devDependencies": {
         "chai": "3.5.0",
         "codecov.io": "0.1.6",
@@ -60,7 +39,43 @@
         "coveralls": "2.11.9",
         "istanbul": "0.4.3",
         "mocha": "2.5.3"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "eb91893003f6d4965182556c47397ed63c5ee2f5",
+        "tarball": "https://registry.npmjs.org/excel-as-json/-/excel-as-json-2.0.0.tgz"
+    },
+    "gitHead": "38fc768ac3a9cdc6e270061ff43a56ec1712bd9f",
+    "homepage": "https://github.com/stevetarver/excel-as-json",
+    "keywords": [
+        "Excel",
+        "JSON",
+        "convert"
+    ],
+    "license": "MIT",
+    "main": "lib/excel-as-json.js",
+    "maintainers": [
+        {
+            "name": "starver"
+        }
+    ],
+    "name": "excel-as-json",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevetarver/excel-as-json.git"
+    },
+    "scripts": {
+        "build": "tools/build.sh",
+        "clean": "tools/clean.sh",
+        "codecov": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov",
+        "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+        "dist": "tools/dist.sh",
+        "prepublish": "tools/dist.sh",
+        "test": "tools/test.sh"
+    },
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
